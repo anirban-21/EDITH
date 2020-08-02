@@ -22,3 +22,4 @@ Voice Activated Desktop Assistant
 ---- Opens your PC's C: Drive ----
 ---- Greets you according to the time of the day ---- 
 ---- Shows you the location of a place using Google maps ----
+---- Exits program on command ----

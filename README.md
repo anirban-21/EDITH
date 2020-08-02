@@ -17,3 +17,5 @@ Voice Activated Desktop Assistant
 ---- Opens the few of the most visited sites in one command ----
 ---- Converses with you ----
 ---- Sends an email to a specific id at your command ----
+---- Opens your PC's C: Drive ----
+---- Greets you according to the time of the day ---- 

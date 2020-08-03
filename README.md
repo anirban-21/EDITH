@@ -18,6 +18,8 @@ Voice Activated Desktop Assistant
 ---- Plays music (shuffle) from your playlist ----
 ---- Opens the few of the most visited sites in one command ----
 ---- Converses with you ----
+---- Opens applications and files from your computer (You may add more using the same method and updating the file ocations) ----
+---- Gets your desktop assistant's memory usage ----
 ---- Sends an email to a specific id at your command ----
 ---- Opens your PC's C: Drive ----
 ---- Greets you according to the time of the day ---- 

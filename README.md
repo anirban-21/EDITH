@@ -16,7 +16,7 @@ Voice Activated Desktop Assistant
 ---- Shuts down your computer ----
 ---- Restarts your computer ----
 ---- Plays music (shuffle) from your playlist ----
----- Opens the few of the most visited sites in one command ----
+---- Directly opens some of the most visited sites in one command ----
 ---- Converses with you ----
 ---- Opens applications and files from your computer (You may add more using the same method and updating the file ocations) ----
 ---- Gets your desktop assistant's memory usage ----

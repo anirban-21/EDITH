@@ -69,6 +69,10 @@ def getmemory() :    #to get memory usage by voice assistant
        py = psutil.Process(pid)
        return py.memory_info()[0] / 2. ** 30
 
+def takeScreenshot():
+       image=ImageGrab.grab()
+       image.show()
+
 def sendEmail(to, content):  #to send email to a certain recipient from your gmail account
        server = smtplib.SMTP('smtp.gmail.com', 587)
        server.ehlo()
@@ -145,6 +149,10 @@ if __name__=="__main__" :
 
               elif 'open flipkart' in query:        #opens flipkart
                      webbrowser.open("flipkart.com")
+
+              elif 'take screenshot' in query:
+                     time.sleep(1)
+                     takeScreenshot()
               
               elif 'youtube' in query:     #if youtube is present in query input
                      if 'open' in query:       #if query is to open youtube

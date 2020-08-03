@@ -45,7 +45,7 @@ def takeCommand():
               return "None" #None string will be returned
        return query                
 
-def speak(audio):
+def speak(audio):          #for the program to be able to reply 
        engine.say(audio)
        engine.runAndWait() #Without this command, speech will not be audible to us.
 
@@ -69,9 +69,9 @@ def getmemory() :    #to get memory usage by voice assistant
        py = psutil.Process(pid)
        return py.memory_info()[0] / 2. ** 30
 
-def takeScreenshot():
-       image=ImageGrab.grab()
-       image.show()
+def takeScreenshot():                 #to take a screenshot
+       image=ImageGrab.grab()         #takes the ss
+       image.show()                   #displays the ss
 
 def sendEmail(to, content):  #to send email to a certain recipient from your gmail account
        server = smtplib.SMTP('smtp.gmail.com', 587)
@@ -150,9 +150,9 @@ if __name__=="__main__" :
               elif 'open flipkart' in query:        #opens flipkart
                      webbrowser.open("flipkart.com")
 
-              elif 'take screenshot' in query:
-                     time.sleep(1)
-                     takeScreenshot()
+              elif 'take screenshot' in query:  #in order to take a screenshot
+                     time.sleep(1)              #this has been done so as to give the user a 1sec interval between giving the command and the code taking the ss
+                     takeScreenshot()           
               
               elif 'youtube' in query:     #if youtube is present in query input
                      if 'open' in query:       #if query is to open youtube

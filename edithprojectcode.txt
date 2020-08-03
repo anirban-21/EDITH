@@ -287,8 +287,10 @@ if __name__=="__main__" :
                      speak("Have a good day sir")
                      exit()
 
-              
-       
+#End of code 
+#The code can be modified to suite the user's requirements and preferences .
+#Some of the modules need to be installed using pip before they can be imported .
+#Code by Anirban Raha
 
               
        
